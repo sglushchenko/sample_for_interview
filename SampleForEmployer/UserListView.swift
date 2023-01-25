@@ -56,6 +56,14 @@ struct UserListView: View {
             self.usersService = usersService
         }
         
+        /// Reload users.
+        ///
+        ///**Important**
+        ///
+        /// `users` set empty array.
+        ///
+        /// `currentPage` set to 0
+        ///
         func reloadUsers() {
             guard state != .loading else { return }
             users = []
@@ -76,6 +84,8 @@ struct UserListView: View {
             }
         }
         
+        /// Load next page of Users
+        ///
         func loadNextPageUsers() {
             guard state != .loading else { return }
             

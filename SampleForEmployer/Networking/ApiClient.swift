@@ -18,6 +18,7 @@ struct APIClient: APIClientProtocol {
         self.basePath = basePath
     }
     
+    /// perform endpoint and get response with Decodable type
     func perform<T: Decodable>(endpoint: EndpointProtocol, complete: @escaping (_ result: Result<T, APIError>) -> Void) {
         let decoder = JSONDecoder()
         

@@ -14,6 +14,7 @@ class UserApiService: UserApiServiceProtocol {
         self.client = client
     }
     
+    /// enum with endpoints for `users` API
     private enum UserEndpoint: EndpointProtocol {
         var path: String {
             switch self {
@@ -35,6 +36,12 @@ class UserApiService: UserApiServiceProtocol {
         
         case allUsers(Int)
     }
+    
+    /// Fetch users from server by page
+    ///
+    /// `page` is set page which you want fetch
+    /// `complete` is closer with array of `Users`
+    ///
     
     func getAllUsers(page: Int, complete: @escaping (Result<PageResponse<User>, APIError>) -> Void) {
         client.perform(endpoint: UserEndpoint.allUsers(page), complete: complete)
