@@ -1,6 +1,6 @@
 //
 //  APIError.swift
-//  SampleForIntreview
+//  SampleForInterview
 //
 //  Created by Sergey Glushchenko on 25.01.2023.
 //

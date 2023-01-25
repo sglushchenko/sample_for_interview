@@ -1,13 +1,13 @@
 //
-//  SampleForIntreviewUITestsLaunchTests.swift
-//  SampleForIntreviewUITests
+//  SampleForInterviewUITestsLaunchTests.swift
+//  SampleForInterviewUITests
 //
 //  Created by Sergey Glushchenko on 25.01.2023.
 //
 
 import XCTest
 
-final class SampleForIntreviewUITestsLaunchTests: XCTestCase {
+final class SampleForInterviewUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

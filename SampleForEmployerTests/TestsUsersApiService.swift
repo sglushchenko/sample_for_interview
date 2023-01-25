@@ -1,12 +1,12 @@
 //
 //  TestsUsersApiService.swift
-//  SampleForIntreviewTests
+//  SampleForInterviewTests
 //
 //  Created by Sergey Glushchenko on 25.01.2023.
 //
 
 import XCTest
-@testable import SampleForIntreview
+@testable import SampleForInterview
 
 final class TestsUsersApiService: XCTestCase {
 

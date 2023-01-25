@@ -1,13 +1,13 @@
 //
-//  SampleForIntreviewUITests.swift
-//  SampleForIntreviewUITests
+//  SampleForInterviewUITests.swift
+//  SampleForInterviewUITests
 //
 //  Created by Sergey Glushchenko on 25.01.2023.
 //
 
 import XCTest
 
-final class SampleForIntreviewUITests: XCTestCase {
+final class SampleForInterviewUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
