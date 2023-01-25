@@ -7,9 +7,13 @@
 
 import Foundation
 
-final class UsersService {
+final class UsersService: UsersServiceProtocol {
     
-    let client: UserApiService = UserApiService()
+    let client: UserApiServiceProtocol
+    
+    init(client: UserApiServiceProtocol = UserApiService()) {
+        self.client = client
+    }
     
     func loadUsers(page: Int = 0, complete: @escaping (_ result: Result<PageResponse<User>, APIError>) -> Void) {
         client.getAllUsers(page: page, complete: complete)

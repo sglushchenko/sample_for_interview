@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct APIClient {
+struct APIClient: APIClientProtocol {
     private let session = URLSession.shared
     
     private let baseURL: String

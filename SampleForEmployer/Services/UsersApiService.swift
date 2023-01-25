@@ -7,8 +7,12 @@
 
 import Foundation
 
-class UserApiService {
-    private let client = APIClient(basePath: "users")
+class UserApiService: UserApiServiceProtocol {
+    private let client: APIClientProtocol
+    
+    init(with client: APIClientProtocol = APIClient(basePath: "users")) {
+        self.client = client
+    }
     
     private enum UserEndpoint: EndpointProtocol {
         var path: String {

@@ -45,19 +45,24 @@ struct UserListView: View {
         @Published
         fileprivate var users: [User] = []
         
-        private let usersService: UsersService = UsersService()
+        private let usersService: UsersServiceProtocol
         
         @Published
         fileprivate var state: State = .idle
         
         private var isFullLoaded: Bool = false
         
+        init(usersService: UsersServiceProtocol = UsersService()) {
+            self.usersService = usersService
+        }
+        
         func reloadUsers() {
             guard state != .loading else { return }
             users = []
             
             state = .loading
-            usersService.loadUsers { [weak self] result in
+            currentPage = 0
+            usersService.loadUsers(page: currentPage) { [weak self] result in
                 guard let self = self else { return }
                 
                 switch result {

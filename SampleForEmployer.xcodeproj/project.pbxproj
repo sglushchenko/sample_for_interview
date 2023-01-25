@@ -28,6 +28,10 @@
 		E9F120C029812FC3006D4710 /* UserAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120BF29812FC3006D4710 /* UserAvatarView.swift */; };
 		E9F120C329813038006D4710 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E9F120C229813038006D4710 /* SDWebImageSwiftUI */; };
 		E9F120C629813110006D4710 /* ImageCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120C529813110006D4710 /* ImageCacheService.swift */; };
+		E9F120C8298134F6006D4710 /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120C7298134F6006D4710 /* APIClientProtocol.swift */; };
+		E9F120CA2981354C006D4710 /* MockApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120C92981354C006D4710 /* MockApiClient.swift */; };
+		E9F120CC298135C5006D4710 /* UserApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120CB298135C5006D4710 /* UserApiServiceProtocol.swift */; };
+		E9F120CE29813644006D4710 /* UsersServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120CD29813644006D4710 /* UsersServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		E9F120BD29812F47006D4710 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 		E9F120BF29812FC3006D4710 /* UserAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAvatarView.swift; sourceTree = "<group>"; };
 		E9F120C529813110006D4710 /* ImageCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheService.swift; sourceTree = "<group>"; };
+		E9F120C7298134F6006D4710 /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		E9F120C92981354C006D4710 /* MockApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiClient.swift; sourceTree = "<group>"; };
+		E9F120CB298135C5006D4710 /* UserApiServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiServiceProtocol.swift; sourceTree = "<group>"; };
+		E9F120CD29813644006D4710 /* UsersServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				E9F120AE29811E3C006D4710 /* UsersService.swift */,
+				E9F120CD29813644006D4710 /* UsersServiceProtocol.swift */,
 				E9F120BB29812B4F006D4710 /* UsersApiService.swift */,
+				E9F120CB298135C5006D4710 /* UserApiServiceProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -183,6 +193,8 @@
 		E9F120B02981264D006D4710 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E9F120C7298134F6006D4710 /* APIClientProtocol.swift */,
+				E9F120C92981354C006D4710 /* MockApiClient.swift */,
 				E9F120B12981265B006D4710 /* ApiClient.swift */,
 				E9F120B3298126CD006D4710 /* Config.swift */,
 				E9F120B52981279B006D4710 /* EndpointProtocol.swift */,
@@ -342,13 +354,17 @@
 				E9F120AD29811D40006D4710 /* UserDetailsView.swift in Sources */,
 				E9F120B62981279B006D4710 /* EndpointProtocol.swift in Sources */,
 				E9F120BC29812B4F006D4710 /* UsersApiService.swift in Sources */,
+				E9F120CA2981354C006D4710 /* MockApiClient.swift in Sources */,
+				E9F120CC298135C5006D4710 /* UserApiServiceProtocol.swift in Sources */,
 				E9F1207F29811A92006D4710 /* ContentView.swift in Sources */,
 				E9F120C029812FC3006D4710 /* UserAvatarView.swift in Sources */,
 				E9F1207D29811A92006D4710 /* SampleForEmployerApp.swift in Sources */,
 				E9F120B4298126CD006D4710 /* Config.swift in Sources */,
 				E9F120A929811C3E006D4710 /* User.swift in Sources */,
 				E9F120B8298127BB006D4710 /* HTTPMethod.swift in Sources */,
+				E9F120CE29813644006D4710 /* UsersServiceProtocol.swift in Sources */,
 				E9F120BE29812F47006D4710 /* UserRowView.swift in Sources */,
+				E9F120C8298134F6006D4710 /* APIClientProtocol.swift in Sources */,
 				E9F120AB29811D22006D4710 /* UserListView.swift in Sources */,
 				E9F120BA29812880006D4710 /* APIError.swift in Sources */,
 			);
