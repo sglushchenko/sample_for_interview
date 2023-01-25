@@ -14,6 +14,20 @@
 		E9F1208E29811A96006D4710 /* SampleForEmployerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1208D29811A96006D4710 /* SampleForEmployerTests.swift */; };
 		E9F1209829811A96006D4710 /* SampleForEmployerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1209729811A96006D4710 /* SampleForEmployerUITests.swift */; };
 		E9F1209A29811A96006D4710 /* SampleForEmployerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1209929811A96006D4710 /* SampleForEmployerUITestsLaunchTests.swift */; };
+		E9F120A929811C3E006D4710 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120A829811C3E006D4710 /* User.swift */; };
+		E9F120AB29811D22006D4710 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120AA29811D22006D4710 /* UserListView.swift */; };
+		E9F120AD29811D40006D4710 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120AC29811D40006D4710 /* UserDetailsView.swift */; };
+		E9F120AF29811E3C006D4710 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120AE29811E3C006D4710 /* UsersService.swift */; };
+		E9F120B22981265B006D4710 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120B12981265B006D4710 /* ApiClient.swift */; };
+		E9F120B4298126CD006D4710 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120B3298126CD006D4710 /* Config.swift */; };
+		E9F120B62981279B006D4710 /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120B52981279B006D4710 /* EndpointProtocol.swift */; };
+		E9F120B8298127BB006D4710 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120B7298127BB006D4710 /* HTTPMethod.swift */; };
+		E9F120BA29812880006D4710 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120B929812880006D4710 /* APIError.swift */; };
+		E9F120BC29812B4F006D4710 /* UsersApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120BB29812B4F006D4710 /* UsersApiService.swift */; };
+		E9F120BE29812F47006D4710 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120BD29812F47006D4710 /* UserRowView.swift */; };
+		E9F120C029812FC3006D4710 /* UserAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120BF29812FC3006D4710 /* UserAvatarView.swift */; };
+		E9F120C329813038006D4710 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E9F120C229813038006D4710 /* SDWebImageSwiftUI */; };
+		E9F120C629813110006D4710 /* ImageCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120C529813110006D4710 /* ImageCacheService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,19 @@
 		E9F1209329811A96006D4710 /* SampleForEmployerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForEmployerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F1209729811A96006D4710 /* SampleForEmployerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForEmployerUITests.swift; sourceTree = "<group>"; };
 		E9F1209929811A96006D4710 /* SampleForEmployerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForEmployerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9F120A829811C3E006D4710 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E9F120AA29811D22006D4710 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		E9F120AC29811D40006D4710 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		E9F120AE29811E3C006D4710 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
+		E9F120B12981265B006D4710 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		E9F120B3298126CD006D4710 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		E9F120B52981279B006D4710 /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		E9F120B7298127BB006D4710 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		E9F120B929812880006D4710 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		E9F120BB29812B4F006D4710 /* UsersApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersApiService.swift; sourceTree = "<group>"; };
+		E9F120BD29812F47006D4710 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		E9F120BF29812FC3006D4710 /* UserAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAvatarView.swift; sourceTree = "<group>"; };
+		E9F120C529813110006D4710 /* ImageCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F120C329813038006D4710 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +122,16 @@
 		E9F1207B29811A92006D4710 /* SampleForEmployer */ = {
 			isa = PBXGroup;
 			children = (
+				E9F120C429813106006D4710 /* Utils */,
+				E9F120B02981264D006D4710 /* Networking */,
+				E9F120A729811C26006D4710 /* Services */,
+				E9F120A629811C0D006D4710 /* Models */,
 				E9F1207C29811A92006D4710 /* SampleForEmployerApp.swift */,
 				E9F1207E29811A92006D4710 /* ContentView.swift */,
+				E9F120AA29811D22006D4710 /* UserListView.swift */,
+				E9F120BD29812F47006D4710 /* UserRowView.swift */,
+				E9F120BF29812FC3006D4710 /* UserAvatarView.swift */,
+				E9F120AC29811D40006D4710 /* UserDetailsView.swift */,
 				E9F1208029811A95006D4710 /* Assets.xcassets */,
 				E9F1208229811A95006D4710 /* Preview Content */,
 			);
@@ -127,6 +163,43 @@
 			path = SampleForEmployerUITests;
 			sourceTree = "<group>";
 		};
+		E9F120A629811C0D006D4710 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F120A829811C3E006D4710 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9F120A729811C26006D4710 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9F120AE29811E3C006D4710 /* UsersService.swift */,
+				E9F120BB29812B4F006D4710 /* UsersApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E9F120B02981264D006D4710 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E9F120B12981265B006D4710 /* ApiClient.swift */,
+				E9F120B3298126CD006D4710 /* Config.swift */,
+				E9F120B52981279B006D4710 /* EndpointProtocol.swift */,
+				E9F120B7298127BB006D4710 /* HTTPMethod.swift */,
+				E9F120B929812880006D4710 /* APIError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E9F120C429813106006D4710 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9F120C529813110006D4710 /* ImageCacheService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +216,9 @@
 			dependencies = (
 			);
 			name = SampleForEmployer;
+			packageProductDependencies = (
+				E9F120C229813038006D4710 /* SDWebImageSwiftUI */,
+			);
 			productName = SampleForEmployer;
 			productReference = E9F1207929811A92006D4710 /* SampleForEmployer.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +291,9 @@
 				Base,
 			);
 			mainGroup = E9F1207029811A92006D4710;
+			packageReferences = (
+				E9F120C129813038006D4710 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = E9F1207A29811A92006D4710 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +336,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F120B22981265B006D4710 /* ApiClient.swift in Sources */,
+				E9F120AF29811E3C006D4710 /* UsersService.swift in Sources */,
+				E9F120C629813110006D4710 /* ImageCacheService.swift in Sources */,
+				E9F120AD29811D40006D4710 /* UserDetailsView.swift in Sources */,
+				E9F120B62981279B006D4710 /* EndpointProtocol.swift in Sources */,
+				E9F120BC29812B4F006D4710 /* UsersApiService.swift in Sources */,
 				E9F1207F29811A92006D4710 /* ContentView.swift in Sources */,
+				E9F120C029812FC3006D4710 /* UserAvatarView.swift in Sources */,
 				E9F1207D29811A92006D4710 /* SampleForEmployerApp.swift in Sources */,
+				E9F120B4298126CD006D4710 /* Config.swift in Sources */,
+				E9F120A929811C3E006D4710 /* User.swift in Sources */,
+				E9F120B8298127BB006D4710 /* HTTPMethod.swift in Sources */,
+				E9F120BE29812F47006D4710 /* UserRowView.swift in Sources */,
+				E9F120AB29811D22006D4710 /* UserListView.swift in Sources */,
+				E9F120BA29812880006D4710 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +675,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9F120C129813038006D4710 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9F120C229813038006D4710 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9F120C129813038006D4710 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9F1207129811A92006D4710 /* Project object */;
 }
