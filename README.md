@@ -1,5 +1,5 @@
 # sample_for_interview
-This repository I use this to show examples of my code for employers.
+This repository I use this to show examples of my code and priciples that I use in my work.
 
 The code is separated by layers and services and uses Clear scalable architecture. Also, the app uses an MVVM pattern for the visual part.
 
@@ -25,6 +25,6 @@ Also, the project has Unit Tests and dependency injections able to make Mock obj
 
 For visualisation I use SwiftUI. I use ViewModel to control the view part. ViewModel implements business logic, like loading data, and controls the state of some views. View just show this data and react of states. It helps test UI too. Because, UI should show only ViewModel data. Also, it helps faster find bugs and fix it.
 
-If you have further questions, you always can write to me: 
+If you have further questions, you always can write to me:
 glushchenko2003@gmail.com
 https://upwork.com/freelancers/shlushchenko
