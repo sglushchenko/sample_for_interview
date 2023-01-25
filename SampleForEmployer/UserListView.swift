@@ -16,7 +16,7 @@ struct UserListView: View {
             ScrollView {
                 ForEach(viewModel.users, id: \.self) { user in
                     NavigationLink {
-                        UserDetailsView()
+                        UserDetailsView(user: user)
                     } label: {
                         UserRowView(user: user)
                             .padding(.horizontal, 16)

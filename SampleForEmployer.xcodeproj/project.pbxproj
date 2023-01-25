@@ -11,7 +11,7 @@
 		E9F1207F29811A92006D4710 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1207E29811A92006D4710 /* ContentView.swift */; };
 		E9F1208129811A95006D4710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F1208029811A95006D4710 /* Assets.xcassets */; };
 		E9F1208429811A95006D4710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F1208329811A95006D4710 /* Preview Assets.xcassets */; };
-		E9F1208E29811A96006D4710 /* SampleForEmployerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1208D29811A96006D4710 /* SampleForEmployerTests.swift */; };
+		E9F1208E29811A96006D4710 /* TestsUsersApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1208D29811A96006D4710 /* TestsUsersApiService.swift */; };
 		E9F1209829811A96006D4710 /* SampleForEmployerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1209729811A96006D4710 /* SampleForEmployerUITests.swift */; };
 		E9F1209A29811A96006D4710 /* SampleForEmployerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1209929811A96006D4710 /* SampleForEmployerUITestsLaunchTests.swift */; };
 		E9F120A929811C3E006D4710 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120A829811C3E006D4710 /* User.swift */; };
@@ -32,6 +32,7 @@
 		E9F120CA2981354C006D4710 /* MockApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120C92981354C006D4710 /* MockApiClient.swift */; };
 		E9F120CC298135C5006D4710 /* UserApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120CB298135C5006D4710 /* UserApiServiceProtocol.swift */; };
 		E9F120CE29813644006D4710 /* UsersServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120CD29813644006D4710 /* UsersServiceProtocol.swift */; };
+		E9F120D029813B7E006D4710 /* TestsUsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F120CF29813B7E006D4710 /* TestsUsersService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +59,7 @@
 		E9F1208029811A95006D4710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9F1208329811A95006D4710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9F1208929811A96006D4710 /* SampleForEmployerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForEmployerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9F1208D29811A96006D4710 /* SampleForEmployerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForEmployerTests.swift; sourceTree = "<group>"; };
+		E9F1208D29811A96006D4710 /* TestsUsersApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUsersApiService.swift; sourceTree = "<group>"; };
 		E9F1209329811A96006D4710 /* SampleForEmployerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForEmployerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F1209729811A96006D4710 /* SampleForEmployerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForEmployerUITests.swift; sourceTree = "<group>"; };
 		E9F1209929811A96006D4710 /* SampleForEmployerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForEmployerUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		E9F120C92981354C006D4710 /* MockApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiClient.swift; sourceTree = "<group>"; };
 		E9F120CB298135C5006D4710 /* UserApiServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiServiceProtocol.swift; sourceTree = "<group>"; };
 		E9F120CD29813644006D4710 /* UsersServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServiceProtocol.swift; sourceTree = "<group>"; };
+		E9F120CF29813B7E006D4710 /* TestsUsersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsUsersService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +159,8 @@
 		E9F1208C29811A96006D4710 /* SampleForEmployerTests */ = {
 			isa = PBXGroup;
 			children = (
-				E9F1208D29811A96006D4710 /* SampleForEmployerTests.swift */,
+				E9F1208D29811A96006D4710 /* TestsUsersApiService.swift */,
+				E9F120CF29813B7E006D4710 /* TestsUsersService.swift */,
 			);
 			path = SampleForEmployerTests;
 			sourceTree = "<group>";
@@ -374,7 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9F1208E29811A96006D4710 /* SampleForEmployerTests.swift in Sources */,
+				E9F120D029813B7E006D4710 /* TestsUsersService.swift in Sources */,
+				E9F1208E29811A96006D4710 /* TestsUsersApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +595,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleForEmployer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleForEmployer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleForEmployer.app$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleForEmployer";
 			};
 			name = Debug;
 		};
@@ -611,7 +615,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleForEmployer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleForEmployer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleForEmployer.app$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleForEmployer";
 			};
 			name = Release;
 		};
