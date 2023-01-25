@@ -1,6 +1,6 @@
 //
 //  CacheConfig.swift
-//  SampleForEmployer
+//  SampleForIntreview
 //
 //  Created by Sergey Glushchenko on 25.01.2023.
 //
@@ -34,8 +34,6 @@ class ImageCacheService {
         self.defaultCache = ImageCacheService.createDefaultCache(title: "default")
         self.userCache = ImageCacheService.createDefaultCache(title: "user")
 
-        let userpicksLoader = SDWebImageDownloader()
-        
         SDImageCachesManager.shared.addCache(defaultCache)
         SDImageCachesManager.shared.addCache(userCache)
 

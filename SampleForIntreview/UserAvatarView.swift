@@ -1,6 +1,6 @@
 //
 //  UserAvatarView.swift
-//  SampleForEmployer
+//  SampleForIntreview
 //
 //  Created by Sergey Glushchenko on 25.01.2023.
 //
